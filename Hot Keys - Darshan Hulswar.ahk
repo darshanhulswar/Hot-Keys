@@ -1,7 +1,7 @@
 ﻿; Opening Statements
 ::os1::Hello, . Welcome to Live Chat. I’m Darshan. I understand it is important for you to be able to #. Let me pull up your account details right away.
 ::os2::Hello, . I’m Darshan. I recognize how important it is to get this issue fixed. I’ll look into the reason right away.
-
+::os3::It is good to know that you want to (renew your account for 3 years). I’ll definitely assist you with this.
 ; Authentication
 ::auth1::Please help me with the token number to pull up the account details. It has been sent to your registered email address.
 ::auth2::Please provide the token number sent to your registered email address to authenticate the account.
@@ -10,6 +10,18 @@
 ::auth5::To safeguard your account’s sensitive information, please provide the token number sent to your registered email address to authenticate.
 ::auth6::I’ll definitely assist you with <>. Please authenticate with the token number sent to your registered email address so that I can pull up the account details.
 ::auth7::Please provide the token number sent to your registered email address to authenticate the account or Here's the link to get the token number: https://my.bluehost.com/cgi/token	
+
+
+; clarifying
+::clarifying1::I understand from your initial query that you want <>. I will definitely help you with that.
+::clarifying2::I understand from your initial inquiry that you need help with <inquiry>. I would be happy to assist you with that. (transferring your domain, renewing your domain name)
+::clarifying3::If I understand correctly, you are not able to <concern>. 
+::clarifying4::From what you are saying, I understand that you are <issue>. Is that correct?
+::clarifying5::From what I’ve understood, <reinstate the concern>. Is that correct?
+
+; Confirm Domain name
+::confirmdomain1::Could you please let me know the domain name you want to <>?
+::confirmdomain2::Please confirm that <domain name> is the concerned domain.
 
 ; URL's
 ::justhosturl::https://my.justhost.com/cgi/token
@@ -23,7 +35,7 @@
 ; Unsuccessfull Authentication
 ::unauth1::I'm afraid that didn't work. Here's the link to get the token number: https://my.bluehost.com/cgi/token
 ::unauth2::I'm sorry that didn't work. Here's the link to get the token number: https://my.bluehost.com/cgi/token
-::unauth3::I'm afraid that the provided number has expired. Please access this link to get the latest token number: https://my.bluehost.com/cgi/token
+::unauth3::I'm afraid the provided number has expired. Please access this link to get the latest token number: https://my.bluehost.com/cgi/token
 ::unauth4::I'm afraid that doesn't match the records. Here's the link to get the token number: https://my.bluehost.com/cgi/token
 
 ; Query not clear
@@ -39,6 +51,8 @@
 
 ; Extended Hold
 ::exthold1::I’m afraid it’s taking longer than I expected. I’m still trying to analyze the root cause of the <issue>.
+::exthold2::Thanks for your patience, it’s taking longer than I expected. I’m still trying to analyze the root cause of the <issue>. (email/website)
+::exthold3::Sorry to have kept you waiting for way too long. I’m still working on <issue>.
 
 ; Survey Statements
 ::survey1::My pleasure. If you have no more queries for me, I would like to know of your experience with me today. When you close this chat, click on ‘RATE & EXIT’ and then ‘CLOSE & TAKE SURVEY’. 5 is the best. 
@@ -80,6 +94,13 @@
 
 ; Account Cancellation
 ::cancellation1::I am sorry to know that you have decided to cancel your account. May I know the reason for this decision?
+::cancellation2::I am sorry to know that you wish to cancel your account. I understand this is a difficult time for you. Let me see if I can search for options to keep your business going.
+
+; Transition
+::cancellationtransition1::Thank you for authenticating. I am doing a quick account overview. Meanwhile, I'm curious to know how you are attracting visitors to your website.
+
+; Recomendation
+::recommendation1::That’s nice{!} Would you be interested in driving more visitors to your website? We have a strong team of SEO experts who guide you on improving your search engine ranking and in turn drive more leads and generate more revenue from your website.
 
 ; Transfer Chat
 ::vpstrans::I see that you are on a VPS hosting plan. Let me get you to the correct department to assist you with the issue. Your chat may appear inactive for some time as there may be a wait time in the queue I am transferring you to.
@@ -90,7 +111,8 @@
 ::softaculousguide::Please login to your Bluehost Account > Advanced > Software > Softaculous Apps Installer. Click on the link to learn more about the softaculous: https://www.softaculous.com/docs/enduser/wordpress-manage-sets
 
 ; Steps to share the screen shots on privatebin tools
-::privatebintool::Here are the steps to share the screenshot: 1.Click on this link: https://privatebin.support-tools.com/ 2. You can either drag & drop the screenshot or paste the screenshot or click on 'Attach a file'. Please note that the screenshot gets attached without getting displayed on the screen. 3. Click on 'Send' at the top right corner to generate a unique link that will contain the screenshot. 4.Copy the displayed (highlighted) link and paste it here in the chat.
+::privatebintool::Here are the steps to share the screenshot: `n1.Click on this link: https://privatebin.support-tools.com/ `n2. You can either drag & drop the screenshot or paste the screenshot or click on 'Attach a file'. Please note that the screenshot gets attached without getting displayed on the screen. `n3. Click on 'Send' at the top right corner to generate a unique link that will contain the screenshot. `n4.Copy the displayed (highlighted) link and paste it here in the chat.
+::privatebintoolfurther::1. Make sure to include the '=' at the end when you copy paste the link. `n2. Please note it is important to include '=' at the end of the link. `n3. Please include the '=' at the end when you copy-paste the link. If '=' is excluded then it will ask for a password.
 
 ; Lost Connection
 ::lostconnection1::I’m sorry that you lost connection with the previous agent. There has been a lot of load on the network lately. I’m glad that we are connected now. Please give me 2-3 minutes to review your previous conversation to assist you further.
@@ -102,6 +124,12 @@
 
 ; Account Cancellation pre-query
 ::accountcancellationquery::I will need a few more details before I go ahead with the cancellation.`n1 – Your Full name on file for the account.`n2 – Have you already taken backups for the website files and databases? Once the account is deleted, you will no longer have access to them.`n3 – Can you please confirm that the credit card / PayPal account that was used to purchase this hosting account is active and can receive funds?`n4 – What would you like to do with the domain name?`nKeep it on auto-renewal / Manual renewal / Do NOT renew? (You can ignore this if you do not have a domain registered with us)`n5 – Do you have access to the email address on file for the account?`nI will initiate the cancellation of your hosting account. You’ll need to manage your account backups before the account deletion and confirm what you want to do with the Domain Name Registrations and Add-On products. Please allow 3-5 business days for any applicable refunds/credits to show up in your account.`n`nThank you for being our customer, we look forward to working with you in the future.
+
+; Renewal Price Concern
+::renewalpriceconcern1::I understand your concern about the renewal price. Your hosting package has many  features like multiple website hosting along with free email hosting and many free features like free SSL etc. We feel that our quality of services and the tools merit the prices that we are offering. We are a stable company that is looking to grow, expand, and meet all of our customers’ needs. <Property> always add new features and upgraded technology. 
+
+; Discount Price
+::discountprice1::We understand that you may have had a discounted price in the past, and we're happy that you got such a great deal. We're only looking for you to pay our standard hosting rates, so that we can  continue to deliver the reliable platform and great service that you've come to expect from us.                                        
 
 
 ; Internal Use Only
