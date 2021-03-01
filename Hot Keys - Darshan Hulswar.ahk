@@ -100,6 +100,10 @@
 ::outofscope2::Such issues might not get fixed on our end because <the theme, plugin…> was not developed by us. However, I will try my best to debug it for you.
 ::outofscope3::Normally, the occurrence of these types of issues is due to the incompatibility of the <the theme, plugin…> with our servers. However, I will try my best to confirm the exact reason for this issue.
 
+; Account Cancellation pre-query
+::accountcancellationquery::I will need a few more details before I go ahead with the cancellation.`n1 – Your Full name on file for the account.`n2 – Have you already taken backups for the website files and databases? Once the account is deleted, you will no longer have access to them.`n3 – Can you please confirm that the credit card / PayPal account that was used to purchase this hosting account is active and can receive funds?`n4 – What would you like to do with the domain name?`nKeep it on auto-renewal / Manual renewal / Do NOT renew? (You can ignore this if you do not have a domain registered with us)`n5 – Do you have access to the email address on file for the account?`nI will initiate the cancellation of your hosting account. You’ll need to manage your account backups before the account deletion and confirm what you want to do with the Domain Name Registrations and Add-On products. Please allow 3-5 business days for any applicable refunds/credits to show up in your account.`n`nThank you for being our customer, we look forward to working with you in the future.
+
+
 ; Internal Use Only
 ; BlueHost Help
 ::helpbh::https://bluehost.com/help
