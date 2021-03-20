@@ -1,7 +1,8 @@
 ﻿; Opening Statements
-::os1::Hello, . Welcome to Live Chat. I’m Darshan. I understand it is important for you to be able to #. Let me pull up your account details right away.
+::os1::Hello, . Welcome to Live Chat. I’m Darshan. I understand it is important for your __. Let me pull up your account details right away.
 ::os2::Hello, . I’m Darshan. I recognize how important it is to get this issue fixed. I’ll look into the reason right away.
 ::os3::It is good to know that you want to (renew your account for 3 years). I’ll definitely assist you with this.
+
 ; Authentication
 ::auth1::Please help me with the token number to pull up the account details. It has been sent to your registered email address.
 ::auth2::Please provide the token number sent to your registered email address to authenticate the account.
@@ -10,7 +11,6 @@
 ::auth5::To safeguard your account’s sensitive information, please provide the token number sent to your registered email address to authenticate.
 ::auth6::I’ll definitely assist you with <>. Please authenticate with the token number sent to your registered email address so that I can pull up the account details.
 ::auth7::Please provide the token number sent to your registered email address to authenticate the account or Here's the link to get the token number: https://my.bluehost.com/cgi/token	
-
 
 ; clarifying
 ::clarifying1::I understand from your initial query that you want <>. I will definitely help you with that.
@@ -21,7 +21,7 @@
 
 ; Confirm Domain name
 ::confirmdomain1::Could you please let me know the domain name you want to <>?
-::confirmdomain2::Please confirm that <domain name> is the concerned domain.
+::confirmdomain2::Please confirm that domain_ is the concerned domain.
 
 ; URL's
 ::justhosturl::https://my.justhost.com/cgi/token
@@ -48,6 +48,7 @@
 ; Hold Statements
 ::hold1::Thank you for clarifying the issue. I need about 2-3 minutes to check a few things. Meanwhile, <you could tell me all about your website>
 ::hold2::I will need 2-3 minutes to research this for you. In the meantime, <____>
+::hold3::Could you please be on hold for 2 to 3 while I check the __?
 
 ; Extended Hold
 ::exthold1::I’m afraid it’s taking longer than I expected. I’m still trying to analyze the root cause of the <issue>.
@@ -154,3 +155,13 @@
 
 ; Chat Histroy
 ::chathistory::https://genesys-tools.corp.endurance.com/Genesys/CallDetails?method=by-agent&agent=elton.go&callstart=&callend=
+
+; Thank cx for being on hold
+::thankforhold::Thank you for being on hold.
+
+; Onboarding
+::onboarddmntrans1::I noticed that your domain name is registered with <GoDaddy>, wouldn't it be great if you could manage both domain name and hosting in the same account with us?
+::onboarddmntrans2::We do provide domain <transfer> service. Transferring the domain registration to us allows you to have full control over the domain in your Domain Manager itself. 
+
+; Issue fixed
+::issuefixed1::Great news! I have fixed the issue with the subdomain by correcting the  . Could you please clear the browser cache and cookies, and check if it is working fine on your end?
