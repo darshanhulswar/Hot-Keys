@@ -163,5 +163,17 @@
 ::onboarddmntrans1::I noticed that your domain name is registered with <GoDaddy>, wouldn't it be great if you could manage both domain name and hosting in the same account with us?
 ::onboarddmntrans2::We do provide domain <transfer> service. Transferring the domain registration to us allows you to have full control over the domain in your Domain Manager itself. 
 
+; on boarding the cx to create email for their domain.
+::onboardemail1::I noticed that you have an <eCommerce> website. I’m curious to know how you communicate with your customers? 
+
+::onboardemail2::Did you know that you can take control of your brand's reputation and set up a professional email for your domain. To do this, all you need to do is, create email address for your domain by referring to https://www.bluehost.com/help/article/email-account-management
+
+::onboardemail3::I noticed that you haven’t created any email address in your account. Do you have plans to create email addresses with your domain name? 
+
+::onboardemail4::Did you know we provide email service along with the website? Have you tried creating email addresses for your domain?  
+
+::publishwebsite1::I am glad that you have already begun to create your website. When you’re done, please click the ‘Publish’ button. To learn more about publishing your website, please refer: https://www.bluehost.com/blog/wordpress/how-to-publish-your-first-page-or-post-12241/ 
+
+
 ; Issue fixed
 ::issuefixed1::Great news! I have fixed the issue with the subdomain by correcting the  . Could you please clear the browser cache and cookies, and check if it is working fine on your end?
