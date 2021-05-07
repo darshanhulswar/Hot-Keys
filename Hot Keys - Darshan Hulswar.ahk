@@ -1,7 +1,8 @@
 ﻿; Opening Statements
 ::os1::Hello, . Welcome to Live Chat. I’m Darshan. I understand it is important for your __. Let me pull up your account details right away.
 ::os2::Hello, . I’m Darshan. I recognize how important it is to get this issue fixed. I’ll look into the reason right away.
-::os3::It is good to know that you want to (renew your account for 3 years). I’ll definitely assist you with this.
+::os3::It is good to know that you want to continue service with us. I’ll definitely assist you with this.
+::os4::Hello, . Welcome to Live Chat. I'll definitely assist you with your query.
 
 ; Authentication
 ::auth1::Please help me with the token number to pull up the account details. It has been sent to your registered email address.
@@ -21,7 +22,8 @@
 
 ; Confirm Domain name
 ::confirmdomain1::Could you please let me know the domain name you want to <>?
-::confirmdomain2::Please confirm that domain_ is the concerned domain.
+::confirmdomain2::Please confirm that domain is the concerned domain.
+::confirmdomain3::To confirm, domain is the domain you are having issues with.
 
 ; URL's
 ::justhosturl::https://my.justhost.com/cgi/token
@@ -38,17 +40,18 @@
 ::unauth3::I'm afraid the provided number has expired. Please access this link to get the latest token number: https://my.bluehost.com/cgi/token
 ::unauth4::I'm afraid that doesn't match the records. Here's the link to get the token number: https://my.bluehost.com/cgi/token
 
+; token link
+::tl1::Here's the link to get the token number: https://my.bluehost.com/cgi/token
+
 ; Query not clear
 ::querysinotclear1::I understand from your initial query that you want . I will definitely help you with that.
 ::queryisnotclear2::If I understand correctly, you are not able to
-
-; Domain Confirmation
-::domainconfirmation::To confirm, domain.com is the domain you are having issues with.
 
 ; Hold Statements
 ::hold1::Thank you for clarifying the issue. I need about 2-3 minutes to check a few things. Meanwhile, <you could tell me all about your website>
 ::hold2::I will need 2-3 minutes to research this for you. In the meantime, <____>
 ::hold3::Could you please be on hold for 2 to 3 while I check the __?
+:::hold4::If you don't mind, I'll put you on hold for 2-3 minutes so that I can review your account details. Is that fine?
 
 ; Extended Hold
 ::exthold1::I’m afraid it’s taking longer than I expected. I’m still trying to analyze the root cause of the <issue>.
@@ -57,12 +60,12 @@
 
 ; Survey Statements
 ::survey1::My pleasure. If you have no more queries for me, I would like to know of your experience with me today. When you close this chat, click on ‘RATE & EXIT’ and then ‘CLOSE & TAKE SURVEY’. 5 is the best. 
-::survey2::I’m so glad that I have answered all your questions, please let my manager know that I took care of you today. When you close this chat, click on ‘RATE & EXIT’ and then ‘CLOSE & TAKE SURVEY’. 5 is the best.
+::survey2::I’m so glad that I have answered all your questions, please let my manager know that I took care of you today. When you close this chat, click on ‘RATE & EXIT’ and then ‘CLOSE & TAKE SURVEY’. 5 is the best.~
 ::survey3::It was my pleasure. Thank you so much for taking the time to work with me. If I have answered all your questions, I'd really appreciate your feedback on my assistance. Please take the survey when you end this chat. 5 is the best.
 
 ; Idle Statements
 ::idle1::Thank you for contacting Chat Support. I’m glad that I was able to assist you today. I have not heard from you in a while, so I am going to close out this chat. If you have any more questions, please do not hesitate to initiate another chat session with us. We are available 24/7/365.
-::idle2::It's been a while since I’ve heard from you. I hope <>
+::idle2::It's been a while since I’ve heard from you. I hope 
 
 ; Website Building
 ::leadpass1::I see that you have recently installed WordPress on your website. How is the website design coming through?
